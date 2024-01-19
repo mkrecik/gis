@@ -1,0 +1,93 @@
+html, body, #map{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+    padding: 6px 8px;
+    background: white;  
+    background: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    font: 14px Helvetica, sans-serif;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #555;
+
+}
+
+.info h4 {
+    margin: 0 0 5px;
+}
+
+.reset{
+    background: rgba(255,255,255,0.8);    
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.65);
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: #f5f5f5;
+}
+
+.source{
+    background: rgba(255,255,255,0.8);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.65);
+}
+
+.source:hover{
+    background: rgba(255,255,255,0.8);
+    text-align: left;
+    font: 14px Helvetica, sans-serif;
+    line-height: 25px;
+    padding: 6px 8px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #555;
+    line-height: 18px;
+}
+
+.slider {
+    width: auto;
+    height: auto;
+    font: 14px Helvetica, sans-serif;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 6px 8px;
+    background: rgba(255,255,255,0.8);
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    color: #555;
+}
